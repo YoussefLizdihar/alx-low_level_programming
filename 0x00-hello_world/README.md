@@ -2,3 +2,4 @@ Config my Repo
 0x00. C - Hello, World | 0. Preprocessor | 1
 Making 0x00-hello_world Dir
 0x00. C - Hello, World | 1. Compiler | 1
+0x00. C - Hello, World | 2-assembler | 1
