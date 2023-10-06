@@ -6,3 +6,4 @@ push it to git
 
 push it to github
 0x01. C - Variables, if, else, while | 1-last_digit.c | 1
+0x01. C - Variables, if, else, while | 1-last_digit.c | 2

@@ -23,7 +23,7 @@ else if (n == 0)
 {
 printf("and is 0");
 }
-else if (n < 6; n !== 0)
+else if (n < 6 && n != 0)
 {
 printf("and is less than 6 and not 0");
 }
