@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - Prints "Hello, World!" to the console.
+ * main - The main function, which serves as the entry point of the program.
  *
- * This is the main function.
+ * This function prints "Hello, World!" to the console and returns 0.
  *
- * return: always 0 on successful execution.
-*/
+ * Return: 0 on successful execution.
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
