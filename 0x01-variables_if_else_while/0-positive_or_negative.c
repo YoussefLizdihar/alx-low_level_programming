@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - The main function, which serves as the entry point of the program.
  *
