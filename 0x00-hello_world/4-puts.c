@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
- * The main function is the entry point of the program.
+ * @brief Prints "Hello, World!" to the console.
  *
- * puts f
+ * This is the main function, which serves as the entry point of the program.
+ * It prints the "Hello, World!" message to the console using the `puts` function.
+ *
+ * @return 0 on successful execution.
  */
 int main(void)
 {
