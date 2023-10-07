@@ -8,12 +8,11 @@
  */
 int main(void)
 {
-char a = 'a';
-char b = 'z';
-while (a <= b)
+int num = 0;
+while (num < 10)
 {
-putchar(a);
-a++;
+putchar('0' + num);
+num++;
 }
 putchar('\n');
 return (0);

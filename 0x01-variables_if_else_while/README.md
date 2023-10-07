@@ -28,3 +28,4 @@ f
 0x01. C - Variables, if, else, while | 5-print_numbers.c | 1
 0x01. C - Variables, if, else, while | 5-print_numbers.c | 2
 push please
+0x01. C - Variables, if, else, while | 6-print_numberz.c | 1
