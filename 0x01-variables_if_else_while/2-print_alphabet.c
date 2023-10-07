@@ -11,7 +11,7 @@ char a = 'a';
 char b = 'z';
 while ( a != b)
 {
-printf("%c");
+  printf("%c", a);
 a++;
 }
 printf("\n");
