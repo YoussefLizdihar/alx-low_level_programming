@@ -15,6 +15,6 @@ while (a != b)
 printf("%c", a);
 a++;
 }
-printf("\n");
+printf("z\n");
 return 0;
 }
