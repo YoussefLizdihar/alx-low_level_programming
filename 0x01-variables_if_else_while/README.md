@@ -33,3 +33,4 @@ push please
 0x01. C - Variables, if, else, while | 7-print_tebahpla.c | 2
 0x01. C - Variables, if, else, while | 8-print_base16.c | 1
 0x01. C - Variables, if, else, while | 8-print_base16.c | 2
+0x01. C - Variables, if, else, while | 9-print_comb.c | 1
