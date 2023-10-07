@@ -13,3 +13,4 @@ push it to github
 0x01. C - Variables, if, else, while | 2-print_alphabet.c | 3
 0x01. C - Variables, if, else, while | 2-print_alphabet.c | 4
 0x01. C - Variables, if, else, while | 2-print_alphabet.c | 5
+0x01. C - Variables, if, else, while | 2-print_alphabet.c | 6 - using putchar insted of printf

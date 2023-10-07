@@ -12,9 +12,9 @@ char a = 'a';
 char b = 'z';
 while (a != b)
 {
-printf("%c", a);
+putchar(a);
 a++;
 }
-printf("z\n");
+putchar('\n');
 return (0);
 }
