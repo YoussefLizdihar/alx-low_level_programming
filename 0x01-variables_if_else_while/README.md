@@ -18,3 +18,4 @@ push it to github
 0x01. C - Variables, if, else, while | 1-last_digit.c | 8
 0x01. C - Variables, if, else, while | 2-print_alphabet.c | 8
 touch 3-print_alphabets.c
+0x01. C - Variables, if, else, while | 3-print_alphabets.c | 1
