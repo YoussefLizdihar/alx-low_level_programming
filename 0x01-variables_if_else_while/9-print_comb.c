@@ -8,8 +8,6 @@
  */
 int main(void)
 {
-char a = 'a';
-char b = 'f';
 int num = 0;
 while (num < 10)
 {
