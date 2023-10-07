@@ -6,12 +6,13 @@
  *
  * Return: 0 on successful execution.
  */
-int main() {
+int main(void)
+{
 char a = 'a';
 char b = 'z';
-while ( a != b)
+while (a != b)
 {
-  printf("%c", a);
+printf("%c", a);
 a++;
 }
 printf("\n");
