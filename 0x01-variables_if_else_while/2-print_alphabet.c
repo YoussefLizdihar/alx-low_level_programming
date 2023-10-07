@@ -10,14 +10,10 @@ int main(void)
 {
 char a = 'a';
 char b = 'z';
-while (a != b)
+while (a <= b)
 {
 putchar(a);
 a++;
-if (a == b)
-{
-putchar(a);
-}
 }
 putchar('\n');
 return (0);
