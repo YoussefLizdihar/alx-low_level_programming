@@ -15,7 +15,7 @@ while (num < 10)
 {
 putchar('0' + num);
 num++;
-if ( num == 10)
+if (num == 10)
 {
 while (a <= b)
 {
