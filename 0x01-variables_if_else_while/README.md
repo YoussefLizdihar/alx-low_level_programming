@@ -21,3 +21,4 @@ touch 3-print_alphabets.c
 0x01. C - Variables, if, else, while | 3-print_alphabets.c | 1
 to git
 0x01. C - Variables, if, else, while | 4-print_alphabt.c | 1
+0x01. C - Variables, if, else, while | 4-print_alphabt.c | 2
