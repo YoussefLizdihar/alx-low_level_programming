@@ -9,13 +9,15 @@
 int main(void)
 {
 char a = 'a';
-char b = 'z';
-while (a <= b)
+while (a <= 'z')
 {
-if (a != 'e' && a != 'q')
+if (a != 'e')
+{
+if (a != 'q')
 {
 putchar(a);
 a++;
+}
 }
 }
 putchar('\n');
