@@ -16,5 +16,5 @@ printf("%c", a);
 a++;
 }
 printf("z\n");
-return 0;
+return (0);
 }
