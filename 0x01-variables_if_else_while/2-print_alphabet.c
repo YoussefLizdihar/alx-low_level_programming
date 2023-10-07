@@ -14,7 +14,7 @@ while (a != b)
 {
 putchar(a);
 a++;
-if (a = b)
+if (a == b)
 {
 putchar(a);
 }
