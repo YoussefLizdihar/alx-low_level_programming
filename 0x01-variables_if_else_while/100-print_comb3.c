@@ -17,14 +17,14 @@ while (p <= 8)
 while (n <= 9 && n != p && p < n)
 {
 putchar('0' + p);
-putchar('0' +n);
+putchar('0' + n);
 putchar(',');
 putchar(' ');
 n++;
 }
-n=1;
+n = 1;
 p++;
-n= n+p;
+n = n + p;
 }
 }
 return (0);
