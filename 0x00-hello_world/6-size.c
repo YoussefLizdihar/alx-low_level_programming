@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-printf("Size of a char:", sizeof(char),"\n");
-printf("Size of a int:", sizeof(int),"\n");
-printf("Size of a long int:", sizeof(long int),"\n");
-printf("Size of a long long int:", sizeof(long long int),"\n");
-printf("Size of a float:", sizeof(float),"\n");
+printf("Size of a char: %c\n", sizeof(char));
+printf("Size of a int: %i\n", sizeof(int));
+printf("Size of a long int: %li\n", sizeof(long int));
+printf("Size of a long long int: %lli\n", sizeof(long long int));
+printf("Size of a float: %f\n", sizeof(float));
 return (0);
 }
