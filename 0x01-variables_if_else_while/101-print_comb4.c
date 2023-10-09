@@ -23,7 +23,7 @@ putchar('0' + p);
 putchar('0' + n);
 putchar('0' + j);
 j++;
-if (p <= 7)
+if (p <= 6)
 {
 putchar(',');
 putchar(' ');
