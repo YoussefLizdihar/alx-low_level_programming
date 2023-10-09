@@ -19,3 +19,4 @@ Making 0x00-hello_world Dir
 5
 k
 ,d,d
+"${CFILE}.s"
