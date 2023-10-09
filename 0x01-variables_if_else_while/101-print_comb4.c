@@ -10,24 +10,31 @@ int main(void)
 {
 int n = 1;
 int p = 0;
+int j = 2;
 if (n > p)
 {
 while (p <= 8)
 {
-while (n <= 9 && n != p && p < n)
+while (n <= 9 && p < n)
+{
+while ( j <= 9 && n < j)
 {
 putchar('0' + p);
 putchar('0' + n);
+putchar('0' + j);
+j++;
 if (p <= 7)
 {
 putchar(',');
 putchar(' ');
 }
-n++;
 }
-n = 1;
+n++;
+j = n + 1;
+}
 p++;
-n = n + p;
+n = p + 1;
+j = n + 1;
 }
 }
 putchar('\n');
