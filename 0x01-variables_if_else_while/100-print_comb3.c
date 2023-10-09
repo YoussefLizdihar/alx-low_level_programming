@@ -18,8 +18,11 @@ while (n <= 9 && n != p && p < n)
 {
 putchar('0' + p);
 putchar('0' + n);
+if (p <= 7)
+{
 putchar(',');
 putchar(' ');
+}
 n++;
 }
 n = 1;
@@ -27,5 +30,6 @@ p++;
 n = n + p;
 }
 }
+putchar('\n');
 return (0);
 }
