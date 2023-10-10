@@ -17,7 +17,7 @@ for (j = 0; j <= 9; j++)
 {
 for (x =  0; x <= 9; x++)
 {
-if (n + p < 18 && j + x <= 18 && p <= n && n <= j && j <= x && x<= 9)
+if (n + p < 18 && j + x <= 18 && p <= 9 && n <= 9 && j <= 9 && x <= 9)
 putchar('0' + p);
 putchar('0' + n);
 putchar(' ');
