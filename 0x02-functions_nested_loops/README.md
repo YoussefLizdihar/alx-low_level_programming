@@ -26,3 +26,4 @@ islower fuc
 add () to return and a discription to the function
 add @c description
 update
+making isalpha program
