@@ -5,7 +5,7 @@
  * Return: success 1.
  * @c: this is the char
  */
-int _abs(int c)
+int _abs(int)
 {
-return (0);
+return (abs);
 }
