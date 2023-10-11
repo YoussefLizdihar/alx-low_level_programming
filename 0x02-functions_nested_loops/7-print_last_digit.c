@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abs - a function that checks for lowercase character
+ * print_last_digit - a function that checks for lowercase character
  * Return: success 1.
  * @n: this is the num
  */
@@ -11,6 +11,6 @@ if (result <= 0)
 {
 result = -result;
 }
-putchar(result + 'n');
+ putchar('n' + result);
 return (result);
 }
