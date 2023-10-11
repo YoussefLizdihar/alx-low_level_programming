@@ -11,6 +11,5 @@ if (result <= 0)
 {
 result = -result;
 }
-putchar('0' + result);
 return (result);
 }
