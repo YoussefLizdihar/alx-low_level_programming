@@ -6,3 +6,4 @@ gcc
 ll
 k
 update
+delete the gcc file
