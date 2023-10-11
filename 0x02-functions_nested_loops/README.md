@@ -45,3 +45,4 @@ result *= 11;
 n -=;
 l
 u
+ok
