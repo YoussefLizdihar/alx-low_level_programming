@@ -17,6 +17,7 @@ a++;
 }
 _putchar('\n');
 c++;
+a= 97;
 }
 return;
 }
