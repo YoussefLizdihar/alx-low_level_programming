@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * print_alphabet -will print alphabets
+ * print_alphabet_x10 -will print alphabets
  * Return: success if 1.
  */
 void print_alphabet_x10(void)
