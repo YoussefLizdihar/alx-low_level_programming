@@ -1,12 +1,16 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
+ * print_alphabet -will print alphabets
+ * Return: success if 1.
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+int a = 97;
+while (a <= 122)
+{
+_putchar(a);
+a++;
+}
+_putchar('\n');
+return;
 }
