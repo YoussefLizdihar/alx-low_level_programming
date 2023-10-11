@@ -1,15 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-
+/**
+ * print_alphabet - is a function
+ * this func will print from a to z
+ */
 void print_alphabet(void)
 {
-    char a = 'a';
-    char b = 'z';
+char a = 'a';
+char b = 'z';
 while (a <= b)
 {
-    printf("%c", a);
-    a++;
+printf("%c", a);
+a++;
 }
-
 return;
 }
