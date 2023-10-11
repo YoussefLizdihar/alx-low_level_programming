@@ -41,3 +41,4 @@ update  7-print_last_digit.c
 update  7-print_last_digit.c
 u
 *11
+result *= 11;

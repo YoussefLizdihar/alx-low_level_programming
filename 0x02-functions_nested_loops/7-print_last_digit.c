@@ -11,6 +11,6 @@ if (result <= 0)
 {
 result = -result;
 }
-result = result * 11;
+result *= 11;
 return (result);
 }
