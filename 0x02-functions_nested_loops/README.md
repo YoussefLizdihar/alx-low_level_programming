@@ -28,3 +28,4 @@ add @c description
 update
 making isalpha program
 adding desc to _isalpha f in isalpha program
+create 5-sign.c program to check sign of n
