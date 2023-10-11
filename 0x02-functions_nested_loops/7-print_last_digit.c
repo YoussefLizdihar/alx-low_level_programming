@@ -4,7 +4,7 @@
  * Return: success 1.
  * @n: this is the num
  */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 int result = n % 10;
 if (result <= 0)
