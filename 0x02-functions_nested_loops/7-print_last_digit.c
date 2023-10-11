@@ -1,25 +1,20 @@
 #include "main.h"
 /**
- * print_last_digit - prints the last digit of a number
- *
- * @n: the int to extract the last digit
- *
- * Return: value of the last digit
- *
+ * jack_bauer - prints every minute of the day of Jack Bauer.
+ * Return: success 1.
  */
-int print_last_digit(int n)
+void jack_bauer(void)
 {
-	int re;
-
-	if (n < 0)
-		n = -n;
-
-	re = n % 10;
-
-	if (re < 0)
-		re = -re;
-
-	_putchar(re + '0');
-
-	return (re);
+int hours, minutes;
+for (hours = 0; hours < 24; hours++) {
+for (minutes = 0; minutes < 60; minutes++) {
+_putchar('0' + (hours / 10));
+_putchar('0' + (hours % 10));
+_putchar(':');
+_putchar('0' + (minutes / 10));
+_putchar('0' + (minutes % 10));
+_putchar('\n');
+}
+}
+return;
 }
