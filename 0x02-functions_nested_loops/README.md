@@ -27,3 +27,4 @@ add () to return and a discription to the function
 add @c description
 update
 making isalpha program
+adding desc to _isalpha f in isalpha program
