@@ -3,8 +3,9 @@
 /**
  * _abs - a function that checks for lowercase character
  * Return: success 1.
+ * @c: this is the char
  */
-int _abs(int)
+int _abs(int c)
 {
 return (0);
 }
