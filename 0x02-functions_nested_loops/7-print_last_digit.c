@@ -11,6 +11,6 @@ if (result <= 0)
 {
 result = -result;
 }
-putchar(result + 'n')
+putchar(result + 'n');
 return (result);
 }
