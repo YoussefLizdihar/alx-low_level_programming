@@ -5,3 +5,4 @@ update 0-main using emacs
 debugging 1-main.c
 ok
 update
+edit 1-main with Vim
