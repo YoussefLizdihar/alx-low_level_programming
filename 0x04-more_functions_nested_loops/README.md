@@ -27,3 +27,4 @@ create 6-print_line.c
 update 6-print_line.c
 update 6-print_line.c
 update 6-print_line.c
+create 7-print_diagonal.c
