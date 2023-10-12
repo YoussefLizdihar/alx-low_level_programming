@@ -1,18 +1,23 @@
 #include "main.h"
-#include <ctype.h>
+#include <stdio.h>
+
 /**
- * _isdigit - a function that checks for lowercase character
- * Return: 1 if c is a digit, 0 otherwise.
- * @c: this is the char
+ * print_most_numbers - a function that prints the numbers, from 0 to 9.
+ *
  */
-int _isdigit(int c)
+
+void print_most_numbers(void)
 {
-if (isdigit(c))
+int i;
+i = 0; 
+while (i < 10)
 {
-return (1);
+if (i != 2 && i != 4 )
+{
+_putchar(i + '0');
 }
-else
-{
-return (0);
+i++;
 }
+_putchar('\n');
+
 }
