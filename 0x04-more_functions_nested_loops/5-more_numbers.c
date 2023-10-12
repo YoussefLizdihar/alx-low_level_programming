@@ -13,15 +13,11 @@ for (j = 0; j <= 10; j++)
 {
 for (i = 0; i < 15; i++)
 {
-if (i < 10)
-{
-putchar(i + '0');
-}
-else
+if (i > 10)
 {
 putchar((i / 10) + '0');
-putchar((i % 10) + '0');
 }
+putchar((i % 10) + '0');
 }
 putchar('\n');
 }
