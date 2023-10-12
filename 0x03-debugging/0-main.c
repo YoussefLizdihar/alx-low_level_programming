@@ -13,7 +13,7 @@ int main(void)
         r = positive_or_negative(i);
 	if (r = 0)
 	{
-		printf("success");
+		printf("0 is zero");
 	}
         return (0);
 }
