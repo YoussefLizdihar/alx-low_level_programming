@@ -14,7 +14,7 @@ i = 0;
 
 while (i < 10)
 {
-_putchar('0' + i);
+_putchar(48 + i);
 i++;
 }
 
