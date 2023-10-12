@@ -11,8 +11,8 @@ int i;
 
 for (i = 48; i < 58; i++)
 {
-_putchar(i);
+putchar(i);
 }
-_putchar('\n');
+putchar('\n');
 
 }
