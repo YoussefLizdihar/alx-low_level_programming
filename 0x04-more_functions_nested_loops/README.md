@@ -8,3 +8,4 @@ update 3-print_numbers.c
 update 3-print_numbers.c
 create _putchar.c file
 update 3-print_numbers.c
+update main.h
