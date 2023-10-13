@@ -20,10 +20,10 @@ while (j <= n)
 while (i <= j)
 {
 putchar(' ');
-i++;
-}
 putchar('\\');
 putchar('\n');
+i++;
+}
 j++;
 i = 1;
 }
