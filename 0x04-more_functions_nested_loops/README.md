@@ -30,3 +30,4 @@ update 6-print_line.c
 create 7-print_diagonal.c
 update 7-print_diagonal.c
 update 7-print_diagonal.c
+update 7-print_diagonal.c
