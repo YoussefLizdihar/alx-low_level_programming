@@ -19,9 +19,9 @@ while (j <= n)
 while (i <= j)
 {
 putchar(' ');
-putchar('\\');
 i++;
 }
+putchar('\\');
 putchar('\n');
 j++;
 i = 1;
