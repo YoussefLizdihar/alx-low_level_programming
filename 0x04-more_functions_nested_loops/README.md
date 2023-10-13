@@ -32,3 +32,4 @@ update 7-print_diagonal.c
 update 7-print_diagonal.c
 update 7-print_diagonal.c
 update 7-print_diagonal.c
+create 8-print_square.c
