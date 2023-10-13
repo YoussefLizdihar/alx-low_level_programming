@@ -42,3 +42,4 @@ update 7-print_d
 update --print-diagonal.c
 yes
 j
+k
