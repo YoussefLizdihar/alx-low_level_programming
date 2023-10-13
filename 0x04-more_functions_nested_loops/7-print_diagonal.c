@@ -12,8 +12,7 @@ if (n <= 0)
 {
 putchar('\n');
 }
-
-else if (n > 0 && j <= n)
+else
 {
 while (j <= n)
 {
@@ -21,9 +20,9 @@ while (i <= j)
 {
 putchar(' ');
 putchar('\\');
-putchar('\n');
 i++;
 }
+putchar('\n');
 j++;
 i = 1;
 }
