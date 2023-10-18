@@ -19,7 +19,7 @@ if (n % 2 == 0)
 {
 while (str[n])
 {
-putchar(str[n]);
+putchar(str[n + 1]);
 n++;
 }
 }
@@ -27,5 +27,6 @@ else if (n % 2 == 1)
 {
 putchar(str[i]);
 }
+putchar('\n');
 return;
 }
