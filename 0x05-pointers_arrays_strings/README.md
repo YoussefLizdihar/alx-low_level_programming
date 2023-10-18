@@ -14,3 +14,4 @@ update file n 4
 update file n 4
 putchar('%d', i / 100);
 update file n 4
+update file n 4
