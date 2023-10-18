@@ -19,13 +19,14 @@ if (n % 2 == 0)
 {
 while (str[n] != '\0' && i >= n)
 {
-putchar(str[n + 1]);
 n++;
+putchar(str[n]);
 }
 }
 else if (n % 2 == 1)
 {
 putchar(str[i]);
 }
+putchar('\n');
 return;
 }
