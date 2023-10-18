@@ -27,6 +27,5 @@ else if (n % 2 == 1)
 {
 putchar(str[i]);
 }
-putchar('\n');
 return;
 }
