@@ -10,11 +10,8 @@ void puts2(char *str)
 int i = 0;
 while (str[i])
 {
-if (i % 2 == 0)
-{
 putchar(str[i]);
-}
-i++;
+i = i + 2;
 }
 return;
 }

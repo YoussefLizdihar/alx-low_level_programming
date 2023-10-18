@@ -17,3 +17,4 @@ update file n 4
 update file n 4
 create filen 5
 update file n 5
+create file n 6
