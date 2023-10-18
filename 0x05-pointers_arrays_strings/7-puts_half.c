@@ -17,7 +17,7 @@ i = i - 1;
 n = i / 2;
 if (n % 2 == 0)
 {
-while (str[n] != '\0')
+while (str[n] != '\0' && i >= n)
 {
 putchar(str[n + 1]);
 n++;
