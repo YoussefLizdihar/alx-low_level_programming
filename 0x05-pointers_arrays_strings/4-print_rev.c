@@ -12,10 +12,11 @@ while (s[i])
 {
 i++;
 }
-while (i >= 0)
+while (i > 0)
 {
 putchar(s[i]);
 i--;
 }
+putchar('\n');
 return;
 }
