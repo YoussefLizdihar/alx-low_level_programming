@@ -3,3 +3,4 @@ create the main.h file
 
 update the file 0
 create 1-strncat.c
+create the file  2-strncpy.c
