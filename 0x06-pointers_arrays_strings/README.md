@@ -7,3 +7,4 @@ create the file  2-strncpy.c
 update  2-strncpy.c
 update  2-strncpy.c
 create 3-strcmp.c
+update 3-strcmp.c
