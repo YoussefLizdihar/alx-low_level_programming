@@ -6,3 +6,4 @@ create 1-strncat.c
 create the file  2-strncpy.c
 update  2-strncpy.c
 update  2-strncpy.c
+create 3-strcmp.c
