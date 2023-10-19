@@ -1,12 +1,23 @@
 #include "main.h"
-#include <ctype.h>
 /**
- * reset_to_98 - a function
+ * _strcat - a function
  * Return: 1 if c uppercasetrue, 0 otherwise.
- * @n: this is the char
+ * @dest: this is the char
+ * @src: this is the char
  */
-void reset_to_98(int *n)
+char *_strcat(char *dest, char *src)
 {
-*n = 98;
-return;
+char i = 0;
+char j = 0;
+while (dest[i] != '\0')
+{
+i++;
+}
+while (src[j] != '\0')
+{
+dest[i + j] = src[j];
+j++;
+}
+dest[j + i + 1] = '\0';
+return (dest);
 }
