@@ -2,6 +2,7 @@
 /**
  * string_toupper - a function
  * Return: 1 if true, 0 otherwise.
+ * @str: is an argument
  */
 
 char *string_toupper(char *str)
