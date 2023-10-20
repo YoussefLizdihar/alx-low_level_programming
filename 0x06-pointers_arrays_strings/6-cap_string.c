@@ -3,6 +3,7 @@
  * cap_string - a function
  * Return: 1 if true, 0 otherwise.
  * @str: is an argument
+ *  , ; . !, ?, ", (, ), {, and }
  */
 
 char *cap_string(char *str)
@@ -17,7 +18,8 @@ str[i - 1] == '\n' || str[i - 1] == '\t' ||
 str[i - 1] == ',' || str[i - 1] == '?' ||
 str[i - 1] == '!' || str[i - 1] == '{' ||
 str[i - 1] == '"' || str[i - 1] == '}' ||
-str[i - 1] == '(' || str[i - 1] == ')')
+str[i - 1] == '(' || str[i - 1] == ')' ||
+str[i - 1] == ';' || i == 0)
 {
 str[i] -= 32;
 }
