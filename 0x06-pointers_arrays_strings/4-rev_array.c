@@ -9,24 +9,15 @@
 void reverse_array(int *a, int n)
 {
 int i = 0;
-int j = 0;
-int k = n - 1;
-int r[999999];
-while (j < n)
+int j = n - 1;
+int t;
+while (i < (n / 2))
 {
-r[j] = a[k];
-j++;
-k--;
-}
-while (i < n)
-{
-if (i != 0)
-{
-printf(", ");
-}
-printf("%d", r[i]);
+t = a[i];
+a[i] = a[j];
+a[j] = t;
+j--;
 i++;
 }
-printf("\n");
 return;
 }
