@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * print_array - a function
+ * _strcpy - a function
  * Return: 1 if true, 0 otherwise.
  * @dest: this is a var
  * @src: this is a var
