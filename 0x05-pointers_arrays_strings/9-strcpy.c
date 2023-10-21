@@ -6,17 +6,15 @@
  * @dest: this is a var
  * @src: this is a var
  */
+
 char *_strcpy(char *dest, char *src)
 {
 int i = 0;
 int t;
-while (i < 98)
-{
-if (src[i] != '\0')
+while (src[i] != '\0')
 {
 t = src[i];
 dest[i] = t;
-}
 i++;
 }
 return (dest);
