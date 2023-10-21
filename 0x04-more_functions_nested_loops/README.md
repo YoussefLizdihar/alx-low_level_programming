@@ -43,3 +43,4 @@ update --print-diagonal.c
 yes
 j
 k
+create 10-print_triangle.c
