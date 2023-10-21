@@ -31,3 +31,4 @@ hh
 kk
 create 8
 create 9-strcpy.c
+update 9-strcpy.c

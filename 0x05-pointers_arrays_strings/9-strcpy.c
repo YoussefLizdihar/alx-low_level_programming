@@ -14,7 +14,7 @@ while (i < 98)
 {
 if (src[i] != '\0')
 {
-int t = src[i];
+t = src[i];
 dest[i] = t;
 }
 i++;
