@@ -9,6 +9,12 @@ void print_triangle(int size)
 {
 int i = 0;
 int s = size;
+if (size == 0)
+{
+putchar('\n');
+}
+else
+{
 while (size > 0)
 {
 while (i <= size)
@@ -25,8 +31,5 @@ putchar('\n');
 i = 0;
 size--;
 }
-if (size == 0)
-{
-putchar('\n');
 }
 }
