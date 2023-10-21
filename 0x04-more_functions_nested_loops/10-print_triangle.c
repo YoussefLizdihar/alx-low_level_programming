@@ -11,21 +11,21 @@ int i = 0;
 int s = size;
 while (size > 0)
 {
-while (i < size)
+while (i <= size)
 {
-putchar(' ');
-i++;
 while (i <= s && i >= size)
 {
 putchar('#');
 i++;
 }
+putchar(' ');
+i++;
 }
 putchar('\n');
 i = 0;
 size--;
 }
-if  (size <= 0)
+if  (size = 0)
 {
 putchar('\n');
 }
