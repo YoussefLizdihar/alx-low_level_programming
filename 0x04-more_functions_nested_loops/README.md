@@ -47,3 +47,4 @@ create 10-print_triangle.c
 update 10-print_triangle.c
 update 10-print_triangle.c
 hfjfjf
+update 10-print_triangle.c

@@ -25,7 +25,7 @@ putchar('\n');
 i = 0;
 size--;
 }
-if (size = 0)
+if (size == 0)
 {
 putchar('\n');
 }
