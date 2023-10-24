@@ -6,3 +6,4 @@ create 0-memset.c
 update 0-memset.c
 create 1-memcpy.c
 create  2-strchr.c
+update  2-strchr.c
