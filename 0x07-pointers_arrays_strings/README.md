@@ -9,3 +9,4 @@ create  2-strchr.c
 update  2-strchr.c
 create 3-strspn.c
 create 4-strpbrk.c
+create 5-strstr.c

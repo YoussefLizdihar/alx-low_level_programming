@@ -30,7 +30,7 @@ n++;
 }
 if (x)
 {
-return (&haystack[i] + k);
+return (&needle[n]);
 }
 n = 0;
 i++;
