@@ -7,13 +7,6 @@
  * @needle: this is a var
  */
 
-/**
- * _strstr - a function
- * Return: 1 if true, 0 otherwise.
- * @haystack: this is a var
- * @needle: this is a var
- */
-
 char *_strstr(char *haystack, char *needle)
 {
 int i = 0;
