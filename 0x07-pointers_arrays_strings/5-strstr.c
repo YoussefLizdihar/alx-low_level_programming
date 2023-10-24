@@ -16,16 +16,16 @@ while (haystack[i] != '\0')
 {
 while (needle[n] != '\0')
 {
-if (needle[n] == haystack[i])
+if (needle[n] == haystack[i + n])
 {
 x = 1;
 break;
 }
 n++;
 }
-if (x)
+if (!x)
 {
-return (&haystack[i]);
+return (&haystack[i + n]);
 }
 n = 0;
 i++;
