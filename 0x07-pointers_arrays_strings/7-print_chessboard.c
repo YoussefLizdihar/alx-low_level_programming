@@ -1,33 +1,27 @@
 #include "main.h"
+
 /**
- * _strpbrk - a function
+ * print_chessboard - a function
  * Return: 1 if true, 0 otherwise.
- * @s: this is a var
- * @accept: this is a var
+ * @a: this is a var
  */
 
-char *_strpbrk(char *s, char *accept)
+void print_chessboard(char (*a)[8])
 {
 int i = 0;
 int n = 0;
-int x = 0;
-while (s[i] != '\0')
+while (i < 8)
 {
-while (accept[n] != '\0')
+while (n < 8)
 {
-if (accept[n] == s[i])
-{
-x = 1;
-break;
-}
+putchar(a[i][n]);
 n++;
-}
-if (x)
+if (n / 8)
 {
-return (&s[i]);
+putchar('\n');
+}
 }
 n = 0;
 i++;
 }
-return (NULL);
 }
