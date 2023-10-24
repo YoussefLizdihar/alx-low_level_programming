@@ -11,3 +11,4 @@ create 3-strspn.c
 create 4-strpbrk.c
 create 5-strstr.c
 update 5-strstr.c
+update 5-strstr.c
