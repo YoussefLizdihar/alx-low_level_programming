@@ -25,11 +25,12 @@ n++;
 }
 if (!x)
 {
-return (&haystack[i + n]);
+i--;
+return (&haystack[i]);
 }
 n = 0;
-i++;
 x = 0;
+i++;
 }
 return (NULL);
 }
