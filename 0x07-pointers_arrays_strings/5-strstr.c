@@ -13,7 +13,6 @@ int i = 0;
 int n = 0;
 while (haystack[i] != '\0')
 {
-int x = 0;
 while (needle[n] != '\0')
 {
 if (needle[n] == haystack[i])
@@ -29,6 +28,7 @@ return (&haystack[i]);
 }
 n = 0;
 i++;
+x = 0;
 }
 return (NULL);
 }
