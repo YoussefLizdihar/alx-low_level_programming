@@ -8,3 +8,4 @@ create 1-memcpy.c
 create  2-strchr.c
 update  2-strchr.c
 create 3-strspn.c
+create 4-strpbrk.c
