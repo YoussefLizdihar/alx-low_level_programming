@@ -23,14 +23,11 @@ break;
 }
 n++;
 }
-if (!x)
+if (x)
 {
-i--;
-return (&haystack[i]);
+return (&haystack[i + n]);
 }
 n = 0;
-x = 0;
 i++;
-}
-return (NULL);
+x = 0;
 }
