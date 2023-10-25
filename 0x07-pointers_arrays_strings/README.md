@@ -27,3 +27,4 @@ update 7-print_chessboard.c
 create 8-print_diagsums.c
 create 100-set_string.c
 create 100-set_string.c
+update main.h file
