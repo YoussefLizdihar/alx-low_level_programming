@@ -24,3 +24,4 @@ update 5-strstr.c
 update 5-strstr.c
 update 5-strstr.c
 update 7-print_chessboard.c
+create 8-print_diagsums.c
