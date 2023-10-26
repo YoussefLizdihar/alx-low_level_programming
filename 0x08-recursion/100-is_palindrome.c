@@ -1,0 +1,31 @@
+#include "main.h"
+int checkPalindrome(char *s, int start, int end);
+/**
+ *  is_palindrome - a function
+ * Return: 1 if true, 0 otherwise.
+ * @s: this is the var
+ */
+int is_palindrome(char *s)
+{
+int len = strlen(s);
+return (checkPalindrome(s, 0, len - 1));
+}
+/**
+ * checkPalindrome - a function
+ * Return: 1 if true, 0 otherwise.
+ * @s: this is the var
+ * @end: this is the var
+ * @start: this is the var
+ */
+int checkPalindrome(char *s, int start, int end)
+{
+if (start >= end)
+{
+return (1);
+}
+if (s[start] == s[end])
+{
+return (checkPalindrome(s, start + 1, end - 1));
+}
+return (0);
+}
