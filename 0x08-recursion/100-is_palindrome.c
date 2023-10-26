@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 int checkPalindrome(char *s, int start, int end);
 /**
  *  is_palindrome - a function
