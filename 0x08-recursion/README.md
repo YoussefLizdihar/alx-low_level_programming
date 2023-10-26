@@ -7,3 +7,4 @@ create 2-strlen_recursion.c
 update 2-strlen_recursion.c
 update 2-strlen_recursion.c
 create 3-factorial.c
+create 4-pow_recursion.c
