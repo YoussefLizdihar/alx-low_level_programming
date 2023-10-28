@@ -4,9 +4,9 @@
  * main - a function
  * Return: 1 if true, 0 otherwise.
  * @argv: this is the char
- * @argv: this is the var
+ * @argc: this is the var
  */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 int i;
 int j;
@@ -15,7 +15,7 @@ if (argc == 3)
 {
 i = atoi(argv[1]);
 j = atoi(argv[2]);
-sum = i * j;
+sum = i *j;
 printf("%d\n", sum);
 }
 else
