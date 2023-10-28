@@ -1,2 +1,3 @@
 
 create libmy.a, Readme files
+create create_static_lib.sh
