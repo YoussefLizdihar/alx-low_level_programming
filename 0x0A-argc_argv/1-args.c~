@@ -1,0 +1,11 @@
+#include <stdio.h>
+/**
+ * main - a function
+ * Return: 1 if true, 0 otherwise.
+ * @argv: this is the char
+ */
+int main(int argc)
+{
+printf("%d\n", argc);
+return (0);
+}
