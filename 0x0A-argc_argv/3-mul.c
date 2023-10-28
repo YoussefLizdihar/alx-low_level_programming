@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - a function
  * Return: 1 if true, 0 otherwise.
@@ -8,9 +9,13 @@
 int main(int argc, char const *argv[])
 {
 int i;
+int j;
+int sum;
 if (argc == 3)
 {
-sum = atoi(argv[1] * argv[2]);
+i = atoi(argv[1]);
+j = atoi(argv[2]);
+sum = i * j;
 printf("%d\n", sum);
 }
 else
