@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - a function
@@ -19,7 +20,7 @@ break;
 }
 if (argc > 1)
 {
-sum = sum + argv[i];
+sum = sum + atoi(argv[i]);
 break;
 }
 else
