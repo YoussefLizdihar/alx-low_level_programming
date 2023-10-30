@@ -10,20 +10,21 @@
 
 int main(int argc, char *argv[])
 {
+int amount, num_coins;
+int coins[] = {25, 10, 5, 2, 1};
 int i;
 if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
-int amount = atoi(argv[1]);
+amount = atoi(argv[1]);
 if (amount < 0)
 {
 printf("0\n");
 return (0);
 }
-int coins[] = {25, 10, 5, 2, 1};
-int num_coins = 0;
+num_coins = 0;
 for (i = 0; i < 5; i++)
 {
 while (amount >= coins[i])
