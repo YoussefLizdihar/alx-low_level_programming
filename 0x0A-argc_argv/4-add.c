@@ -14,7 +14,7 @@ char *i;
 int o = 0;
 while (--argc)
 {
-for (i = argv[argc]); *i; i++)
+for (i = argv[argc]; *i; i++)
 {
 if (*i < '0' && *i > '9')
 {
