@@ -8,32 +8,20 @@
  */
 int main(int argc, char const *argv[])
 {
-int i = 0;
 int sum = 0;
-while (argc--)
-{
-
-if (argc == 1)
+if (atoi(argv[argc]) == 1)
 {
 printf("0\n");
-break;
 }
-if (argc > 1)
+else if (atoi(argv[argc]) > 1)
 {
-sum = sum + atoi(argv[i]);
-break;
-}
-else
+while (argc--)
 {
-break;
+sum = sum + atoi(argv[argc]);
 }
-i++;
-}
-if (argc > 1)
-{
 printf("%d\n", sum);
 }
-else if (argc < 0)
+else if (atoi(argv[argc]) < 1)
 {
 printf("Error\n");
 return (1);
