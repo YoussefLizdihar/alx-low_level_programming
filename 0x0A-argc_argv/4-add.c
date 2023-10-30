@@ -8,7 +8,7 @@
  * @argv: this is the var
  */
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 char *i;
 int o = 0;
@@ -21,9 +21,9 @@ if (*i < '0' && *i > '9')
 printf("Error\n");
 return (1);
 }
-sum += atoi(argv[argc]);
+o += atoi(argv[argc]);
 }
 }
-printf("%d\n", sum);
+printf("%d\n", o);
 return (0);
 }
