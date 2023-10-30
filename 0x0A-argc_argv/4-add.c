@@ -8,25 +8,22 @@
  * @argv: this is the var
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-int sum = 0;
-if (atoi(argv[argc]) == 1)
+char *i;
+int o = 0;
+while (--argc)
 {
-printf("0\n");
-}
-else if (atoi(argv[argc]) > 1)
+for (i = argv[argc]); *i; i++)
 {
-while (argc--)
-{
-sum = sum + atoi(argv[argc]);
-}
-printf("%d\n", sum);
-}
-else if (atoi(argv[argc]) < 1)
+if (*i < '0' && *i > '9')
 {
 printf("Error\n");
 return (1);
 }
+sum += atoi(argv[argc]);
+}
+}
+printf("%d\n", sum);
 return (0);
 }
