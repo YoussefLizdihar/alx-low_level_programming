@@ -14,6 +14,10 @@ int j = 0;
 int size1 = 0;
 int size2 = 0;
 char *ptr = NULL;
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 while (s1[size1] != '\0')
 {
 size1++;
