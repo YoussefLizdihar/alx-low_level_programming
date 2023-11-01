@@ -21,14 +21,14 @@ while (str[size] != '\0')
 size++;
 }
 ptr = (char *) malloc(size + 1);
+if (ptr == NULL)
+{
+return (NULL);
+}
 while (i <= size)
 {
 ptr[i] = str[i];
 i++;
-}
-if (ptr == NULL)
-{
-return (NULL);
 }
 return (ptr);
 }
