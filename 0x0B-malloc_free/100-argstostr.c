@@ -35,7 +35,7 @@ return (NULL);
 }
 for (i = 0; i < ac; i++)
 {
-for (k = 0;av[i][k]; k++)
+for (k = 0; av[i][k]; k++)
 {
 ptr[l] = av[i][k];
 l++;
