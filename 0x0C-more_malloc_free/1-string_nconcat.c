@@ -25,7 +25,7 @@ for (a = 0; s1[a] != '\0'; a++)
 {
 ptr[a] = s1[a];
 }
-while (s2[b] != '\0' && b <= n)
+while (s2[b] != '\0' && b < n)
 {
 ptr[a + b] = s2[b];
 b++;
