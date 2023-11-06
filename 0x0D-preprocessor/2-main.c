@@ -7,7 +7,7 @@
  * Return: 1 if true, NULL otherwise.
  */
 
-void main(void)
+int main(void)
 {
 printf("%s", __FILE__);
 return (0);
