@@ -1,9 +1,6 @@
-#ifndef MAIN_H
-#define MAIN_H
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef dog.h
+#define dog.h
 
-int _putchar(char c);
 /**
  * struct dog - Short descriptiona structre
  * @name: First member
@@ -12,10 +9,11 @@ int _putchar(char c);
  *
  * Description: Longer descriptionthis is a struct for 3 elements
  */
+
 struct dog
 {
 char *name;
 float age;
 char *owner;
 }
-#endif /* MAIN_H */
+#endif /* dog.h */
