@@ -1,10 +1,6 @@
 #include "dog.h"
-#include <string.h>
-#include <stdio.h>
-
 /**
  * init_dog - a function
- * Return: 1 if true, NULL otherwise.
  * @d: var
  * @name: var
  * @age: var
