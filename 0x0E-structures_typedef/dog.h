@@ -9,11 +9,11 @@
  *
  * Description: Longer descriptionthis is a struct for 3 elements
  */
-void init_dog(struct dog *d, char *name, float age, char *owner);
 struct dog
 {
 char *name;
 float age;
 char *owner;
 };
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
