@@ -25,3 +25,4 @@ update dog.h
 . gp 2
 update dog.h
 create 4
+update 4 & dog.h
