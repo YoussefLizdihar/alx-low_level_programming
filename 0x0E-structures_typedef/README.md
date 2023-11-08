@@ -22,3 +22,4 @@ update 2
 ii
 2
 update dog.h
+. gp 2
