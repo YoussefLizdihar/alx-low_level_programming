@@ -15,6 +15,6 @@ printf("owner: %s\n", d->owner ? d->owner : "(nil)");
 }
 else
 {
-printf("");
+printf(" ");
 }
 }
