@@ -11,9 +11,9 @@ if (d)
 {
 printf("Name: %s\n", d->name ? d->name : "(nil)");
 printf("Age: %f\n", d->age);
-printf("owner: %s\n", d->owner ? d->owner : "(nil)");
+printf("Owner: %s\n", d->owner ? d->owner : "(nil)");
 }
-if (d == NULL)
+else if (d == NULL)
 {
 printf(" ");
 }
