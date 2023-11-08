@@ -1,5 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
+#include <string.h>
 
 /**
  * struct dog - Short descriptiona structre
@@ -9,7 +10,7 @@
  *
  * Description: Longer descriptionthis is a struct for 3 elements
  */
-struct dog
+typedef struct dog
 {
 char *name;
 float age;
