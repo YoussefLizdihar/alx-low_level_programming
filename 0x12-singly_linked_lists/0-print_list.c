@@ -1,16 +1,19 @@
 #include <stdio.h>
-#include "dog.h"
+#include "lists.h"
 /**
- * print_dog - a function
- * @d: var
+ * print_list - a function
+ * @h: var
+ * Return: the True elements
  */
 
-void print_dog(struct dog *d)
+size_t print_list(const list_t *h)
 {
-if (d)
+size_t i = 0;
+while (h)
 {
-printf("Name: %s\n", d->name ? d->name : "(nil)");
-printf("Age: %f\n", d->age);
-printf("Owner: %s\n", d->owner ? d->owner : "(nil)");
+printf("[%d] %s\n", _strlen(h->str), h-str ? h->str : "(nil)")
+h = h->next;
+i++;
 }
+return (i);
 }
