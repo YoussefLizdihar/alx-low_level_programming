@@ -1,5 +1,24 @@
 #include <stdio.h>
 #include "lists.h"
+
+/**
+ * _strlen - func to know str len
+ * @str: string
+ * Return: len
+ */
+
+int _strlen(char *str)
+{
+int len = 0;
+if (!str)
+return (0);
+while (*str != '\0')
+{
+len++;
+str++;
+}
+return (len);
+}
 /**
  * print_list - a function
  * @h: var
