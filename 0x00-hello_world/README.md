@@ -20,3 +20,4 @@ Making 0x00-hello_world Dir
 k
 ,d,d
 "${CFILE}.s"
+-S

@@ -21,3 +21,4 @@ update  6-cap_string.c
 update  6-cap_string.c
 create  7-leet.c
 create 100-rot13.c
+create 102-magic.c

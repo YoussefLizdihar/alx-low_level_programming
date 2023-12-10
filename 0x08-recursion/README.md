@@ -12,3 +12,4 @@ create 5-sqrt_recursion.c
 create 6-is_prime_number.c
 update 6-is_prime_number.c
 create 100-is_palindrome.c
+update 100-is_palindrome.c
