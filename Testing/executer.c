@@ -17,12 +17,15 @@ if (kid == 0)
 {
 if(execve(c[0], c, environ) == -1)
 {
+imFree(c);
 perror(argv[0]);
+exit(127);
 }
 }
 else
 {
 waitpid(kid, &i, 0);
+imFree(c);
 }
 return (WEXITSTATUS(i));
 }
