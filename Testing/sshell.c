@@ -17,17 +17,15 @@ while (1)
 l = scanner();
 if (l == NULL)
 {
-if (isatty(STDOUT_FILENO))
+if (isatty(STDIN_FILENO))
 {
 ppr("\n", 1);
 }
 return (i);
 }
 c = transfer(l);
-}
-
 i = executer(c, av);
-
+}
 return (0);
 }
 
