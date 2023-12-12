@@ -30,8 +30,7 @@ free(temp);
 c = malloc(sizeof(char *) * (i + 1));
 if (c == NULL)
 {
-free(l);
-free(c);
+free(l), l = NULL;
 l = NULL;
 return (NULL);
 }
@@ -42,7 +41,7 @@ c[j] = _strdup(t);
 t = strtok(NULL, DLM);
 j++;
 }
-free(l);
+free(l), l = NULL;
 c[j] = NULL;
 return (c);
 }
