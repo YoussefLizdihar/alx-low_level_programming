@@ -10,7 +10,7 @@
 int executer(char **c, char **argv)
 {
 pid_t kid;
-int i = 0;
+int i ;
 kid = fork();
 if (kid == 0)
 {
