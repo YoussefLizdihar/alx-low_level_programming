@@ -11,11 +11,10 @@ int executer(char **c, char **argv)
 {
 pid_t kid;
 int i = 0;
-
 kid = fork();
 if (kid == 0)
 {
-if(execve(c[0], c, environ) == -1)
+if (execve(c[0], c, environ) == -1)
 {
 perror(argv[0]);
 imFree(c);
