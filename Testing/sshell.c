@@ -24,6 +24,7 @@ ppr("\n", 1);
 return (i);
 }
 c = transfer(l);
+imFree(c);
 i = executer(c, av);
 }
 return (0);
