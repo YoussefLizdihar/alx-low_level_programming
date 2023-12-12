@@ -26,12 +26,11 @@ while (t)
 i++;
 t = strtok(NULL, DLM);
 }
-free(temp);
+free(temp), temp = NULL;
 c = malloc(sizeof(char *) * (i + 1));
 if (c == NULL)
 {
 free(l), l = NULL;
-l = NULL;
 return (NULL);
 }
 t = strtok(l, DLM);
