@@ -17,8 +17,8 @@ if (kid == 0)
 {
 if(execve(c[0], c, environ) == -1)
 {
-imFree(c);
 perror(argv[0]);
+imFree(c);
 exit(127);
 }
 }
