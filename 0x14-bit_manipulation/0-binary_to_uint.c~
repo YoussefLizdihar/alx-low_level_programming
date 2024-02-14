@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * binary_to_uint - func to know str len
+ * @b: a ptr to binary
+ * Return: int
+ */
+
+unsigned int binary_to_uint(const char *b)
+{
+}
