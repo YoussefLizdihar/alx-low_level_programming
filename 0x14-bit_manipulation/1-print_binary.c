@@ -15,5 +15,5 @@ print_binary(n >> 1);
 
 i = n & 1;
 
-_putchar(i + '0');
+putchar(i + '0');
 }
