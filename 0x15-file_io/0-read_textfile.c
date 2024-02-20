@@ -10,20 +10,32 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-if(filename == NULL)
+
+ssize_t count = 0;
+char buffer[1024];
+ssize_t bytes_read;
+size_t bytes_written;
+int fd;
+if (filename == NULL)
 return (0);
-FILE f = fopen(filename, "r");
-int count;
-char s = fgetc(f);
-while (s != EOF)
+
+fd = open(filename, O_RDONLY);
+if (fd == -1)
+return (0);
+
+while ((bytes_read = read(fd, buffer, sizeof(buffer))) > 0)
 {
-if (count > letters)
+bytes_written = write(STDOUT_FILENO, buffer, bytes_read);
+if (bytes_written != bytes_read)
+{
+close(fd);
 return (0);
-putchar("%c", s);
-s = fgetc(f);
-count++;
+}
+count += bytes_written;
+if (count >= letters)
+break;
 }
 
-fclose(f);
-return (letters)
+close(fd);
+return (count);
 }
