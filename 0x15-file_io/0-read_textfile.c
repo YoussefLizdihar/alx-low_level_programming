@@ -26,13 +26,13 @@ return (0);
 while ((bytes_read = read(fd, buffer, sizeof(buffer))) > 0)
 {
 bytes_written = write(STDOUT_FILENO, buffer, bytes_read);
-if (bytes_written != bytes_read)
+if ((size_t)bytes_written != (size_t)bytes_read)
 {
 close(fd);
 return (0);
 }
 count += bytes_written;
-if (count >= letters)
+if ((size_t)count >= letters)
 break;
 }
 
