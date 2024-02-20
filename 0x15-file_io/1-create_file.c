@@ -22,9 +22,9 @@ return (-1);
 
 if (text_content != NULL)
 {
-while (text_content[i] != "/0")
+while (text_content[i] != '\0')
 {
-fputs(fptr, text_content[i]);
+fputc(text_content[i], fptr);
 i++;
 }
 }
@@ -34,4 +34,5 @@ return (-1);
 }
 
 fclose(fptr);
+return (1);
 }
