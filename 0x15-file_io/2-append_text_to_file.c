@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * read_textfile - func to know str len
+ * append_text_to_file - func to know str len
  * @filename: file name we want to R&P
- * @letters: Num of letters in file
+ * @text_content: Num of letters in file
  * Return: int
  */
 
