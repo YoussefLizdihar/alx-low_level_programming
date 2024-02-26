@@ -17,7 +17,7 @@ head->prev->next = head->next;
 }
 if (head->next != NULL)
 {
-head->next->prev = fourth->prev;
+head->next->prev = head->prev;
 }
 free(head);
 }
