@@ -7,7 +7,7 @@
  * Return: len of the list
  */
 
-void free_dlistint(dlistint_t *head);
+void free_dlistint(dlistint_t *head)
 {
 while (head != NULL)
 {
