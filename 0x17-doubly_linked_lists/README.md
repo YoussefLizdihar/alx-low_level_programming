@@ -7,3 +7,4 @@ create 2-add_dnodeint.c
 update 2
 up 2
 up 2
+cp 2
