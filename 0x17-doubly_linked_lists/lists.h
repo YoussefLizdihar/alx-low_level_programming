@@ -15,7 +15,7 @@
 
 typedef struct dlist
 {
-int x;
+int n;
 struct dlist *next;
 struct dlist *prev;
 } dlistint_t;
