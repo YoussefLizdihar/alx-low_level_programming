@@ -9,3 +9,4 @@ create 4
 create 5
 update 5
 create 100
+create 101-password
