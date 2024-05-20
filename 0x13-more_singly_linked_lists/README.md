@@ -13,3 +13,4 @@ update 1
 >>>>>>>>>>>>>>>>>>>>>>>>>> create 2-add_node.c
 >>>>>>>>>>>>>>>>>>>>>>>>>> create 3-add_node_end.c
 >>>>>>>>>>>>>>>>>>>>>>>>>> Create the last file 4
+create 0-print_listint.c
